@@ -13,9 +13,11 @@ for (let i = 1; i <= 100; i++) {
         if (i % 3 == 0){
             console.log('si, è un multiplo di 3 quindi FIZZ');
         }
+    //------ALTRIMENTI SE E' UN MULTIPLO DI 5 SCRIVO BUZZ---------    
         else if (i % 5 == 0){
             console.log('si, è un multiplo di 5 quindi BUZZ');
         }
+    //-----ALTRIMENTI INSERISCO IL NUMERO NORMALE----------    
         else{
             console.log('qui niente, quindi inserisco numero normale:' + i);
         }
